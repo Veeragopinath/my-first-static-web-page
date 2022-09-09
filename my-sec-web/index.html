@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            /* font-family: 'Open Sans', sans-serif; */
+            /* font-family: 'Roboto', sans-serif; */
+            font-family: 'Roboto Slab', serif;
+        }
+
+        body {
+            background-image: url("vector.png");
+            background-repeat: no-repeat;
+            background-position: top right;
+            font-family: 'Open Sans', sans-serif;
+            /* color: red; */
+        }
+
+        .width-1040 {
+            max-width: 1040px;
+        }
+
+        .navbar {
+            display: flex;
+            /* height: 97px; */
+            margin-top: 48px;
+        }
+
+        .navbar .logo {
+            flex: 25%;
+            /* padding-top: 36px; */
+            padding-left: 91px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .content {
+            flex: 50%;
+            /* padding-top: 36px; */
+            padding-left: 134px;
+        }
+
+        .content div {
+            display: inline;
+            padding-left: 38px;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .content div:hover {
+
+            color: blue;
+
+        }
+
+        .links {
+            flex: 50%;
+            padding-left: 165px;
+            /* padding-top: 34px; */
+        }
+
+        .links div {
+            display: inline;
+            padding-left: 76px;
+        }
+
+        button {
+            background-color: #4f46ba;
+            color: white;
+            border-radius: 12px;
+            padding: 1px;
+            border: solid white 0px;
+            font-size: 15px;
+            line-height: 19px;
+            font-weight: 600;
+        }
+
+        .main {
+            display: flex;
+            margin: 98px;
+            margin-top: 53px;
+            margin-bottom: 6px;
+        }
+
+        .left {
+            flex: 60%;
+            margin-left: 7px;
+        }
+
+
+        .right {
+            flex: 40%;
+            margin-right: 7px;
+        }
+
+        h3 {
+            font-size: 60px;
+        }
+
+        .left2 p {
+            font-size: 20px;
+        }
+
+        .left3 button {
+            padding-left: 117pxmargin-left: 80px;
+            margin-top: 27px;
+        }
+
+        .left3 a {
+            padding-left: 126px;
+        }
+
+        .form1 {
+            padding-top: 122px;
+            padding-left: 102px;
+        }
+
+        input,
+        button {
+            margin-bottom: 28px;
+            border-radius: 13px;
+            padding: 10px;
+        }
+
+        form button {
+            margin-left: 145px;
+        }
+
+        form h4 {
+            margin-bottom: 48px;
+            font-size: 30px;
+            font-weight: 800;
+            margin-left: 50px;
+            margin-top: -49px;
+        }
+
+        form input {
+            margin-left: 84px;
+        }
+        .trust{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .trust h5 {
+            /* padding-left: 363px; */
+            padding-top: 24px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .trust img {
+            /* padding-left: 199px; */
+            padding-top: 30px;
+        }
+        .quote{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .quote h4 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 42px;
+            margin-top: 77px;
+            /* margin-left: 326px; */
+        }
+
+        .quote p {
+            /* padding: 13px 255px 15px 257px; */
+            padding-top: 13px;
+            padding-bottom: 15px;
+        }
+
+        .quote button {
+            /* margin-left: 495px; */
+            margin-top: 13px;
+        }
+
+        .big {
+            display: flex;
+            margin: 49px auto 0 auto;
+            gap: 30px;
+        }
+
+        .big1,
+        .big2,
+        .big3 {
+            flex: 33.33%;
+            position: relative;
+        }
+
+        /* .big2,
+        .big3 {
+            margin-left: 30px;
+        } */
+
+        .big1>h6,
+        .big2>h6,
+        .big3>h6 {
+            position: absolute;
+            top: -79px;
+            right: 15px;
+            color: #f2f2f2;
+            font-size: 204px;
+            font-weight: 900;
+            opacity: 46.7;
+            z-index: -1;
+        }
+
+        .big1>span,
+        .big2>span,
+        .big3>span {
+            font-weight: 700;
+        }
+
+        .big img {
+            position: relative;
+            top: -21px;
+            left: 0px;
+        }
+        .box > h4,button{
+            display:inline-block;
+        }
+        .box{
+            margin: 49px auto 0 auto;
+            background-color: #f8f9fd;
+        }
+        .box h4{
+            padding: 43px 105px 21px 157px;
+            font-size: 21px;
+        }
+        .profile {
+            display: flex;
+            /* background-color: bisque; */
+            margin-left: 170px;
+            margin-top: 134px;
+        }
+        .p_left{
+            flex:55%;
+            position:relative;
+        }
+        .icon{
+            position:absolute;
+            top: -30px;
+            left: 222px;
+        }
+        .p_left_1{
+            border: solid black -3px;
+            border-radius: 22px;
+            position: absolute;
+            box-shadow: 3px 3px 45px;
+            background-color: white;
+            box-sizing: border-box;
+            /* width: 342px;
+            height: 388px; */
+            padding: 18px 18px 25px 33px;
+            justify-content:center;
+            align-items:center;
+        }
+        .p_left_2{
+            position: absolute;
+            top: 103px;
+            left: 181px;
+            box-shadow: 3px 3px 40px;
+             border: solid black -1px;
+            border-radius: 22px;
+            background-color: white;
+            padding: 17px 29px 1px 30px;
+        }
+
+        .p_right{
+            
+            flex: 45%;
+            margin-top: -36px;
+        }
+        .p_right li{
+
+        }
+        .p_left_1 > .dumy ,.p_left_1> .photo_details{
+            display:inline-block;
+            
+        }
+        .photo_details{
+            transform: translate(10px, -3px);
+        }
+        .p_left h6{
+            font-size: 14px;
+        }
+        .p_left p{
+            font-size: 13px;
+        }
+        .p_right li::before{
+            content:url(Group\ 155.png);
+            position: relative;
+            left: -8px;
+            top: 5px;
+        }
+        .p_right ul{
+            list-style-type: none;
+            padding-left: 3px;
+            padding-top: 19px;
+            line-height: 32px;
+        }
+        .p_right span{
+            line-height: 56px;
+            color: blue;
+            font-weight: 800;
+        }
+        .p_right h4{
+            line-height: 38px;
+            font-weight: 600;
+            font-size: 35px;
+            padding-bottom: 11px;
+        }
+        .p_right p{
+            line-height: 21px;
+            font-weight: 500;
+            font-size: 13px;
+            padding-bottom: 11px;
+        }
+        .product{
+            margin: 82px 197px 46px 248px;
+            justify-content: center;
+            align-items: center;
+        }
+        .product h4{
+            margin-left: 183px;
+            margin-right: 23px;
+            font-size: 29px;
+            line-height: 59px;
+        }
+        .product p{
+            margin-left: 87px;
+            margin-right: 23px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .product_box{
+            display: flex;
+            margin-left: 104px;
+            margin-right: 118px;
+            gap: 72px;
+        }
+        .box1 , .box2 , .box3{
+            flex: 33.33%;
+            border: 1px solid #DFDFDF;
+            box-shadow: 2px 2px 31px;
+            padding: 50px 20px 14px 27px;
+            border-radius: 29px;
+        }
+        .box1 >h4,.box2 >h4,.box3 >h4{
+            margin-bottom:13px;
+        }
+        .more button{
+            margin: 67px 2px 2px 607px;
+           padding: 14px;
+        }
+        .width-121{
+            margin-left: 121px;
+            margin-right:121px;
+        }
+        .connect{
+            background-color: #f8f9fd;
+            display: flex;
+            margin-top: 47px;
+            border-radius: 15px;
+            padding: 24px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .connect h4{
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 56px;;
+            
+        }
+        .connect button{
+             background-color: #f8f9fd;
+             display: flex;
+             margin-top: 47px;
+             border-radius: 15px;
+             padding: 24px;
+             justify-content: space-around;
+             align-items: center;
+        }
+        .connect1,.connect2,.connect3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .testimony{
+            display: flex;
+            margin-top: 72px;
+            gap: 121px;
+        }
+        .testimony_1{
+
+        }
+        .testimony_2{
+            margin-top: 76px;
+            line-height: 20px;
+        }
+        .star{
+            display:flex;
+        }
+        .star1{
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            background: #F9896B;
+            border-radius: 1px;
+            height: 23px;
+            width: 24px;
+            line-height: 20px;
+        }
+        .blog{
+            display: flex;
+            gap: 717px;
+            margin-top: 26px;
+        }
+        .post{
+            display: flex;
+            gap:36px;
+        }
+        .post1, .post2, .post3{
+             flex:33.33%;
+             line-height: 24px;
+        }
+        .post3{
+            display:flex;
+            flex-direction: column;
+            gap:3px;
+        }
+        .p_box_1{
+            display:flex;
+            margin-bottom: 2px;
+        }
+        .p_box_1 img{
+            padding: 8px;
+        }
+        .p_box_1 h4{
+            font-size: 11px;
+            line-height: 15px;
+        }
+        .gu{
+            margin-top: 10px;
+            margin-left: 22px;
+        }
+        .gu h6{
+            font-size: 10px;
+            font-weight: 500;
+        }
+        .blue_box{
+            display: flex;
+            background-color: #3734a9;
+            margin-top: 64px;
+        }
+        .blue_box_1{
+            color: white;
+            margin-top: 93px;
+           /* margin-bottom: 112px; */
+            margin-left: 102px;
+            margin-right: 78px;
+        }
+        .blue_box_2{
+            margin: 113px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 181px;
+            margin-top: 163px;
+        }
+        .footer{
+            display: flex;
+            margin-top: 58px;
+            gap: 117px;
+
+        }
+        .foot1, .foot2, .foot3 , .foot4{
+            padding: 3px;
+            /* height: 4px; */
+            line-height: 28px;
+             width: 202px;
+        }
+        .footer ul{
+            list-style: none;
+            margin-left: -39px;
+            line-height: 34px;
+        }
+        .footer h5{
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+        .foot2{
+            margin-left: -37px;
+        }
+        .foot3{
+            margin-left: -37px;
+        }
+        .foot4{
+            /* margin:3px 3px 3px 3px; */
+            width: 277px;
+        }
+        .last{
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-top: 21px;
+           margin-bottom: 27px;
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h4>Shapevoice</h4>
+        </div>
+        <div class="content">
+            <div>Product</div>
+            <div>Template</div>
+            <div>Blog</div>
+            <div>Pricing</div>
+        </div>
+        <div class="links">
+            <div><a href="#">Sign in</a></div>
+            <div><button>Start Free</button></div>
+        </div>
+
+
+
+    </div>
+
+
+    <!----------main-->
+    <div class="main">
+        <div class="left">
+            <div class="left1">
+                <h3>Managing business payments has never been easier</h3>
+            </div><br>
+            <div class="left2">
+                <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.
+                    Indulgence way everything.</p>
+            </div><br>
+            <div class="left3"><button>Our Process</button><a href="#">see it how works</a></div>
+        </div>
+        <div class="right">
+            <div class="form1">
+                <form>
+                    <h4>Get Started for Free</h4>
+                    <input placeholder="Email address"><br>
+                    <input placeholder="Password"><br>
+                    <button style="background-color: #ff7f5c;padding: 13px 60px 13px 56px;display: flex;position: relative;left: -59px;top: 13px;justify-content: center;">get started</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="trust">
+        <h5> Trusted By Over 100+ Startups and freelance business </h5>
+        <img src="Logos.png">
+    </div>
+
+    <!------quote-->
+
+    <div class="quote">
+        <h4>Believing neglected so so allowance</h4>
+        <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor
+            convinced residence own.</p>
+        <button>We so opinion friends me message as delight.</button>
+    </div>
+
+    <!---big-->
+    <!-- <div class="big-container"> -->
+        <div class="big width-1040">
+            <div class="big1">
+                <img src="m1.png"><br>
+                <h6>1</h6>
+                <span>
+                    <bold>Led Ask Possible Mistress</bold>
+                </span><br>
+                <p>Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity
+                    he. Friendly bachelor entrance to on by.</p>
+            </div>
+            <div class="big2">
+                <img src="m2.png"><br>
+                <h6>2</h6>
+                <span>
+                    <bold>Elegance Eat Likewise</bold>
+                </span><br>
+                <p>From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may
+                    instantly was household applauded incommode. </p>
+            </div>
+            <div class="big3">
+                <img src="m3.png"><br>
+                <h6>3</h6>
+                <span>
+                    <bold>Message Oram Nothing</bold>
+                </span><br>
+                <p>Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient
+                    not. Letter of on become he tended active enable to.</p>
+            </div>
+        </div>
+     </div>
+    <!-----------box-->
+    <div class="box width-1040 ">
+        <h4>Track your crytpo portfolio on the best way possible</h4>
+        <button>checkit out</button>
+    </div>
+    <!---------profile-->
+    <div class="profile width-1040">
+        <div class="p_left">
+            <div class="p_left_1">
+             <h6>100+ Verified Users</h6>
+              <img class="icon" src="bay.png">
+              <img  class="dumy" src="p.png"><div class="photo_details"><h6>therasa webb</h6><p>Member of web development</p></div><br>
+              <img class="dumy" src="p.png"><div class="photo_details"><h6>therasa webb</h6><p>Member of web development</p></div><br>
+              <img class="dumy" src="p.png"><div class="photo_details"><h6>therasa webb</h6><p>Member of web development</p></div><br>
+              <a href="#" style="color:#FF6160 ;">see More</a>
+            </div>
+            <div class="p_left_2">
+                <img src="p.png"><br>
+                <h6>bkhdcs cnkwjscn</h6><br>
+                <p>Mentor of web development</p><br>
+                <button style="margin-left: 53px; padding: 8px;"> submit</button>
+            </div>
+        </div>
+        <div class="p_right">
+            <span>Why Choose us</span>  
+            <h4>Thirty for remove plenty regard you summer though.</h4>
+            <p>The its enable direct men depend highly. Ham windows sixteen who inquiry fortune demands.</p>
+            <hr>
+            <ul>
+                <li>Get Overview at a glance</li>
+                <li>Deoposit funds easily, securlity</li>
+                <li>Get Live Support</li>
+            </ul>
+        </div>
+    </div>
+    <!----product---->
+    <div class="product">
+        <h4>Push your code to product with ease.</h4>
+        <p>Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.</p>
+    </div>
+
+    <!--product_box-->
+    <div class="product_box">
+        <div class="box1">
+            <h4>Do believing oh disposing to supported</h4>
+            <p>Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. </p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="box2">
+            <h4>Do believing oh disposing to supported</h4>
+            <p>Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. </p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="box3">
+            <h4>Do believing oh disposing to supported</h4>
+            <p>Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. </p>
+            <a href="#">Read More</a>
+        </div>
+        </div>
+        <div class="more"><button>More about Platform</button></div>
+    
+
+    <!--connect-->
+
+    <div class="connect width-121">
+        <h4>Preference connect astonished </h4>
+        <div class="connect1"><img src=m1.png><h6>Removed Enjoyed Explain</h6></div>
+        <div class="connect2"><img src=m1.png><h6>Removed Enjoyed Explain</h6></div>
+        <div class="connect3"><img src=m1.png><h6>Removed Enjoyed Explain</h6></div>
+
+    </div>
+    <!-------testimony-->
+    <div class="width-121 testimony">
+         <div class="testimony_1">
+             <h6 style="font-weight: 700;
+             font-size: 14px;
+             line-height: 38px;
+             color: #4f46ba;
+             text-transform: uppercase;">Testimonials</h6>
+             <h3 style="font-weight: 800;
+             font-size: 25px;
+             line-height: 47px;
+             text-transform: uppercase;">Check what our 
+                clients are saying</h3>
+             <img src="mask.png" ">
+             <img src="seg.png" style="position: relative;
+             top: -79px;
+             left: 43px;">
+         </div>
+         <div class="testimony_2">
+             <h2 style="color: #FF7F5C;
+             font-size: 77px;
+             line-height: 41px;">"</h2>
+             <h4 style="    font-weight: 800;
+             font-size: 20px;
+             line-height: 32px;
+             margin-bottom: 31px;">Save Time Managing Social
+                Media For Your Business</h4>
+             <p style="margin-bottom: 27px;">Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.
+
+                Believing neglected so so allowance existence departure in. In design active temper be uneasy. </p>
+                <div class="star">
+                    <div class="star1"></div>
+                    <div class="star1"></div>
+                    <div class="star1"></div>
+                    <div class="star1"></div>
+                </div>
+                     
+                <h4 style="font-weight: 800;
+                font-size: 16px;
+                line-height: 30px;" >AR Shakir</h4>
+                <p >CEO GetNextDesign</p>
+         </div>
+
+    </div>
+
+    <!-------blog-->
+    <div class="blog width-121">
+        <h2>Our Latest Blog Posts</h2>
+        <button>See All Blog Posts</button>
+    </div>
+    <div class="post width-121">
+        <div class="post1">
+            <img src="post1.png"><br>
+            <h6>08-11-2021      category</h6>
+            <h4>Believing neglected so so allowance existence departure.</h4>
+            <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+            </div>
+            
+        <div class="post2">
+            <img src="post2.png"><br>
+            <h6>08-11-2021      category</h6>
+            <h4>Believing neglected so so allowance existence departure.</h4>
+            <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+        </div>
+        <div class="post3">
+            <div class="p_box_1">
+                <img src="post3.png">
+                <div class="gu"><h6>08-11-2021      category</h6>
+                     <h4>Believing neglected so so allowance existence departure.</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="p_box_1">
+                <img src="post3.png">
+                <div class="gu"><h6>08-11-2021      category</h6>
+                     <h4>Believing neglected so so allowance existence departure.</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="p_box_1">
+                <img src="post3.png">
+                <div class="gu"><h6>08-11-2021      category</h6>
+                     <h4>Believing neglected so so allowance existence departure.</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="p_box_1">
+                <img src="post3.png">
+                <div class="gu"><h6>08-11-2021      category</h6>
+                     <h4>Believing neglected so so allowance existence departure.</h4>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <!---blue_box-->
+
+    <div class="blue_box">
+        <div class="blue_box_1">
+            <h6>Why Choose Us</h6>
+            <h3>Partiality on or continue in the particular principles</h3>
+            <p style="margin-top: 26px;">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+        </div>
+        <div class="blue_box_2">
+            <input placeholder="Email Address" style="border-radius: 13px; padding: 15px; transparent: 60px;">
+            <input placeholder="Password" style="border-radius: 13px; padding: 15px; transparent: 60px;">
+            <button style="background-color: #ff7f5c;" style="border-radius: 13px; padding: 15px; transparent: 60px;">Get Started</button>
+        </div>
+    </div>
+    <!------foooter-->
+
+    <div class="footer width-121">
+        <div class="foot1">
+            <h5>AR Shakir</h5>
+            <p>Finance helps companies manage payments easily.</p>
+            <img src="social.png" style="margin-top: 28px;">
+        </div>
+        <div class="foot2">
+            <h5>Company</h5>
+            <ul>
+                <li>About Us</li>
+                <li>Carrers</li>
+                <li>Blog</li>
+                <li>Pricing</li>
+            </ul>
+        </div>
+        <div class="foot3">
+            <h5>Resources</h5>
+            <ul>
+                <li>Proposal Template   </li>
+                <li>Invoice Template</li>
+                <li>Tuturoial</li>
+                <li>How to write a contract</li>
+            </ul>
+        </div>
+        <div class="foot4">
+            <h5>Join Our Newsletter</h5>
+            <div style="display: flex;" >
+                <input placeholder="Your email address" style="background-color:#f9f9f9; border-radius:2px; color:black; font-weight: 100;"></input>
+                <button style="border-radius: 1px; margin-left: -5px; padding: 9px; ">Subscribe</button>
+            </div>
+            <p>Will send you weekly updates for your better finance management.</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="last"><p>Copyright @ veeragopinath M 2022. All Rights Reserved.</p></div>
+
+</body>
+
+</html>
